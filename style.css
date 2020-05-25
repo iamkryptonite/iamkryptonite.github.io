@@ -1,0 +1,25 @@
+html{
+    scroll-behavior: smooth;   
+}
+nav{
+    margin-bottom: 0px;
+    width: 100%;
+}
+nav  a.brand-logo{
+    padding-left: 15px;
+}    
+section{
+    
+    position: relative;
+    height: 800px;
+}
+div.container{
+    padding-top: 80px;
+    /* margin-top: 50px; */
+}
+section.container{
+    padding-top: 50px;
+}
+p{
+    font-size: 1.5rem;
+}
