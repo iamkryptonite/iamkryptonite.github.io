@@ -1,5 +1,7 @@
 html{
-    scroll-behavior: smooth;   
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;   
 }
 nav{
     margin-bottom: 0px;
@@ -7,24 +9,17 @@ nav{
 }
 nav  a.brand-logo{
     padding-left: 15px;
-}    
-section{
-    
-    position: relative;
-    height: 800px;
 }
 div.container{
     padding-top: 80px;
-}
-section.container{
-    padding-top: 50px;
 }
 p{
     font-size: 1.5rem;
 }
 #modal1{
     height: 900px;
-    width: 700px;
+    min-width: 450px;
+    max-width: 700px;
     padding: 20px;
 }
 .profile-img{
@@ -36,12 +31,21 @@ p{
 .card-content{
     border-radius: 10px;
 }
-.card p{
+p{
     font-size: 20px;
 }
-/* a{
-    color: black;
-} */
 .card-content a{
     color: white;
+}
+.skills button{
+    margin: 5px;
+}
+section.skills{
+    min-height: 500px;
+}
+section#about{ 
+    min-height: 800px;
+}
+footer.contact{
+   min-height: 500px;
 }
