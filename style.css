@@ -22,3 +22,8 @@ section.container{
 p{
     font-size: 1.5rem;
 }
+#modal1{
+    height: 900px;
+    width: 700px;
+    padding: 20px;
+}

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -80,13 +80,54 @@
                         <p>For futher queries , you can <em> <a href="https://satyakidas.0728@gmail.com"> email</a></em> me.</p>
                     </div>
                     <div class="col s7 center-align">
-                        <h1>Contact</h1>
-
+                        <h1>Contact</h1>                        
+                        <div class="container">
+                            <form>                                    
+                                <div class="input-field ">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>                                  
+                                </div>
+                                <div class="input-field">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Last Name</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>                                                                
+                            </form>                            
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+        <div id="modal1" class="modal">
+            <div class="modal-content center-align">                                        
+                <div class="">
+                    <h1>Contact</h1>
+                    <form>                                    
+                        <div class="input-field ">
+                            <input id="first_name" type="text" class="validate" required>
+                            <label for="first_name">First Name</label>                                  
+                        </div>
+                        <div class="input-field">
+                            <input id="last_name" type="text" class="validate" required>
+                            <label for="last_name">Last Name</label>
+                        </div>
+                        <div class="input-field">
+                            <input id="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input id="number" type="number" class="validate" required>
+                            <label for="number">Phone</label>
+                        </div>                                                                
+                    </form>
+                    <button class="modal-close waves-effect btn">Send</button>
+                    <button class="modal-close waves-effect btn">Close</button>                            
+                </div>
+            </div>
+          </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>        
         <script src="script.js"></script>
     </body>
