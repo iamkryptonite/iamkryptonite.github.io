@@ -17,7 +17,7 @@ nav  a.brand-logo{
 p{
     font-size: 1.5rem;
 }
-#modal1{
+.modal{
     height: 900px;
     min-width: 450px;
     max-width: 700px;
@@ -42,9 +42,9 @@ p{
     margin: 5px;
 }
 section.skills{
-    min-height: 500px;
+    min-height: 1000px;
 }
-section#about{ 
+section.about{ 
     min-height: 800px;
 }
 section.projects{
@@ -63,6 +63,22 @@ footer.contact{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
 h1{
-    font-weight: 600;    
+    font-weight: 500;    
 }
-
+i{
+    padding: 10px;
+}
+.progress{
+    height :  20px;
+    background-color : #ffffff;    
+}
+.progress:hover{
+    box-shadow: 0 4px 8px 0 rgba(230, 230, 230, 0.2), 0 6px 20px 0 rgba(230, 230, 230, 0.19);
+    /* height: 25px; */
+}
+.progress .determinate{
+    background-color : #d44819;
+}
+.skills .s8{
+    padding-top: 15px;
+}
