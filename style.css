@@ -10,9 +10,9 @@ nav{
 nav  a.brand-logo{
     padding-left: 15px;
 }
-div.container{
+/* div.container{
     padding-top: 80px;
-}
+} */
 p{
     font-size: 1.5rem;
 }
@@ -46,6 +46,12 @@ section.skills{
 section#about{ 
     min-height: 800px;
 }
+section.projects{
+    min-height: 1100px;
+}
 footer.contact{
    min-height: 500px;
+}
+.contact a{
+    color: white;
 }
