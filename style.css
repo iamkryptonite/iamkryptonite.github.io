@@ -55,3 +55,6 @@ footer.contact{
 .contact a{
     color: white;
 }
+.btn{
+    border-radius: 10px;
+}
