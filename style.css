@@ -67,22 +67,17 @@ footer.contact{
 .card:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
-h1{
+h2{
     font-weight: 500;    
 }
 i{
     padding: 10px;
 }
 .progress{
-    height :  20px;
-    background-color : #ffffff;    
-}
-.progress:hover{
-    box-shadow: 0 4px 8px 0 rgba(230, 230, 230, 0.2), 0 6px 20px 0 rgba(230, 230, 230, 0.19);
-    /* height: 25px; */
+    height:  20px;
+    background-color: #ffffff;    
 }
 .progress .determinate{
-    /* background-color : #d44819; */
     background: rgb(212,72,25);
     background: linear-gradient(140deg, rgba(212,72,25,1) 16%, rgba(8,117,66,1) 88%);
 }
@@ -95,4 +90,16 @@ i{
 }
 a.brand-logo{
     font-weight: 500;
+}
+.fade-in{
+    animation: fadeIn 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
