@@ -4,74 +4,44 @@ html{
     padding: 0;
     font-family: 'Montserrat', sans-serif;  
 }
-nav{
-    margin-bottom: 0px;
-    width: 100%;
+h2{
+    font-weight: 500;    
 }
-nav  a.brand-logo{
-    padding-left: 15px;
-}
-p{
-    font-size: 1.5rem;
-}
-.modal{
-    height: 900px;
-    min-width: 450px;
-    max-width: 700px;
-    padding: 20px;
-}
-.profile-img{
-    padding:25px
-}
-.card{
-    border-radius: 10px;
-}
-.card-content{
-    border-radius: 10px;
+i{
+    padding: 10px;
 }
 p{
     font-size: 20px;
-}
-.card-content a{
-    color: white;
-}
-.skills button{
-    margin: 5px;
-}
-section.skills{
-    min-height: 1000px;
-}
-section.about{ 
-    min-height: 800px;
-    background: rgb(212,72,25);
-    background: linear-gradient(140deg, rgba(212,72,25,1) 16%, rgba(8,117,66,1) 88%);
-}
-section.projects{
-    min-height: 1100px;
-}
-footer.contact{
-   min-height: 500px;
-}
-.contact a{
-    color: white;
 }
 .btn{
     border-radius: 10px;
     background: rgb(212,72,25);
     background: linear-gradient(140deg, rgba(212,72,25,1) 16%, rgba(8,117,66,1) 88%);
 }
-.skills .btn{
-    background: none;
-    border: 2px solid white;
+nav{
+    margin-bottom: 0px;
+    width: 100%;
 }
-.card:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+nav  a.brand-logo{
+    padding-left: 15px;
+    letter-spacing: 2px;
 }
-h2{
-    font-weight: 500;    
+a.brand-logo{
+    font-weight: 500;
+    
 }
-i{
-    padding: 10px;
+section.about{ 
+    min-height: 800px;
+    background: rgb(212,72,25);
+    background: linear-gradient(140deg, rgba(212,72,25,1) 16%, rgba(8,117,66,1) 88%);
+    
+}
+img{
+    padding:25px;
+    z-index: 1;   
+}
+section.skills{
+    min-height: 1000px;
 }
 .progress{
     height:  20px;
@@ -88,8 +58,30 @@ i{
     font-weight: 500;
     border: 2px white;
 }
-a.brand-logo{
-    font-weight: 500;
+.skills .btn{
+    background: none;
+    border: 2px solid white;
+}
+section.projects{
+    min-height: 1100px;
+}
+.card{
+    border-radius: 10px;
+}
+.card-content{
+    border-radius: 10px;
+}
+.card-content a{
+    color: white;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+footer.contact{
+   min-height: 500px;
+}
+.contact a{
+    color: white;
 }
 .fade-in{
     animation: fadeIn 4s;
@@ -102,4 +94,10 @@ a.brand-logo{
     to{
         opacity: 1;
     }
+}
+.modal{
+    height: 900px;
+    min-width: 450px;
+    max-width: 700px;
+    padding: 20px;
 }
