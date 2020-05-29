@@ -33,12 +33,11 @@ a.brand-logo{
 section.about{ 
     min-height: 800px;
     background: rgb(212,72,25);
-    background: linear-gradient(140deg, rgba(212,72,25,1) 16%, rgba(8,117,66,1) 88%);
-    
+    background: linear-gradient(140deg, rgba(212,72,25,1) 16%, rgba(8,117,66,1) 88%);    
 }
 img{
-    padding:25px;
-    z-index: 1;   
+    padding:5px;
+    background-color: #ffffff;   
 }
 section.skills{
     min-height: 1000px;

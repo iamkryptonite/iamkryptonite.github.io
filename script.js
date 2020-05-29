@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var instance2 = M.Modal.init(modal,{
         inDuration:500,
         outDuration:100,
-        preventScrolling:true,
+        preventScrolling:false,
         draggable:false
     }); 
     setTimeout(function(){
